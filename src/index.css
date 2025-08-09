@@ -45,8 +45,8 @@
   --shadow-3xl: 0 10px 40px rgba(0, 0, 0, 0.1);
 
   /* backgroundimage */
-  --bg-hero: url("assets/images/collection-background.svg");
-  --bg-card: url("assets/images/thumbnail-background.svg");
+  /* --bg-hero: url("assets/images/collection-background.svg");
+  --bg-card: url("assets/images/thumbnail-background.svg"); */
 
   /* screenwidth */
   --screen-wide: 1440px;
@@ -93,4 +93,11 @@
 }
 @utility info-text {
   @apply font-montserrat text-slate-gray text-lg leading-7;
+}
+@utility bg-hero {
+  background-image: url('assets/images/collection-background.svg');
+}
+
+@utility bg-card {
+  background-image: url('assets/images/thumbnail-background.svg');
 }
